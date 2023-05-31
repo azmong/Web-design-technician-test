@@ -1,0 +1,13 @@
+현재 부족한 부분 : HTML, CSS 부분은 문제없이 해결하나 Script 부분 숙지 미숙
+해결 방안 : Script 부분 위주로 별도 공부
+
+Script
+1. gnb
+- 1-1 구조 못외움 // $("#gnb").hover < 까진 외웠으나 이중 function문 X
+- 1-2 $(".submenu").stop.slideDown; 로 작성하여 오류 발생
+- 1-2-1 stop().slideDown()으로 수정하여 해결
+
+2. slide
+- 2-1 구조 못외움 // setInterval < 사용은 익혔으나 이후 구조 X
+- 2-2 setInterval(function(){}, function(){ },3000);}); 으로 작성하여 오류 발생
+- 2-2-1 setInterval(function(){}, function(){ },);},3000); 으로 수정하여 해결
