@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "돋움", sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+    border: 0;
+}
+
+a:link{text-decoration: none; color:#333;}
+a:visited{text-decoration: none; color:#333;}
+a:hover{text-decoration: none; color:#599d31;}
+a:active{text-decoration: none; color:#599d31;}
+
+header {
+    width:1200px;
+    height:100px;
+    margin: 0 auto 0;
+    position: relative;
+}
+
+header h2 {
+    position: absolute;
+    top:30px;
+    left:30px;
+}
+
+#gnb {
+    position: absolute;
+    width:700px;
+    display: flex;
+    top: 30px;
+    right:40px;
+    z-index:11;
+}
+
+#gnb > li {
+    width:25%;
+}
+
+#gnb > li > a {
+    display: block;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size:20px;
+    background-color: #599d31;
+}
+
+#gnb > li:hover > a {
+    background-color: #81cb56;
+    color:#fff;
+}
+
+.submenu {
+    display:none;
+}
+
+.submenu li {
+}
+
+.submenu li a {
+    display: block;
+    height:35px;
+    line-height: 35px;
+    text-align: center;
+    font-size:14px;
+}
+
+.submenu li:hover a {
+    background-color: #c0fb9d;
+}
+
+#gnb_bg {
+    display:none;
+    width:1160px;
+    height:105px;
+    position: absolute;
+    top:70px;
+    background-color: #81cb56;
+    z-index: 10;
+}
+
+#slide_wrap {
+    width:1200px;
+    height:300px;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+
+#slide_img {
+    width:3600px;
+    display:flex;
+    position: relative;
+}
+
+#contents {
+    width:1200px;
+    height:200px;
+    margin:10px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contents h2 {
+    width:120px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #81cb56;
+    border-radius: 10px;
+
+}
+
+#notice {
+    font-size:14px;
+    
+}
+
+#notice ul li {
+    margin-top:10px;
+}
+
+#gallery {
+    width:400px;
+}
+
+#gallery ul {
+    display:flex;
+    justify-content: space-between;
+}
+
+#gallery ul li {
+    margin-top:10px;
+}
+
+#banner { 
+    margin-top:20px;
+}
+
+footer {
+    width:1200px;
+    height:100px;
+    margin: 10px auto 0;
+    background-color: #dcdcdc;
+    position: relative;
+}
+
+footer h2 {
+    position: absolute;
+    top:30px;
+    left:30px;
+}
+
+footer p {
+    position: absolute;
+    top:45px;
+    left:400px;
+    font-size:12px;
+}
+
+footer select {
+    position: absolute;
+    top:45px;
+    right:70px;
+}
+
+
+/* #599d31 */
+/* #81cb56 */
+/* #c0fb9d */
